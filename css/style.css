@@ -4,7 +4,7 @@
 header {
     max-width: 100%;
     height: 640px;
-    background-color: darkgreen;
+    background-color: white;
     text-align: center;
 }
 #headpicture {
@@ -14,7 +14,7 @@ header {
 main {
     width: 100%;
     height: 3100px;
-    background-color: pink;
+    background-color: white;
     display: inline-block;
 }
 .introtext p {
@@ -35,7 +35,7 @@ main {
     margin-top: 50px;
 }
 .ui-accordion .ui-accordion-header-active {
-    background-color: darkgreen;
+    color: darkgreen;
 }
 .p1 {
     margin: 0 auto;
@@ -50,17 +50,17 @@ h2 {
     margin-top: 80px;
     text-align: center;
     font-size: 1.5em;
+    color: darkgreen;
 }
 #gallery {
     width: 950px;
-    /* background-color: red; */
     margin: 0 auto;
     height: 1000px;
     margin-top: 50px;
     position: relative;
 }
 footer {
-    background-color: blueviolet;
+    background-color: white;
     width: 100%;
     height: 1000px;
     margin-top: -80px;
@@ -130,6 +130,80 @@ footer {
     margin-top: 50px;
     height: 600px;
   }
+    div#tabs .ui-state-active {
+      background-color: darkgreen;
+  }
   .video-js {
       margin: 0 auto;
+  }
+  #sound {
+      width: 300px;
+      height: 40px;
+      color: white;
+      margin: 0 auto;
+      text-align:center;
+      margin-top: 35px;
+      display: block;
+  }
+  #sound p {
+      color: black;
+  }
+  #themesound {
+      height: 30px;
+      margin: 0 auto;
+      display: none;
+      margin-top: 70px;
+      width: 280px;
+  }
+  #toggle {
+    width: 280px;
+    height: 30px;
+    border-radius: 60%;
+    background: #ccc;
+    margin: 0 auto;
+    display: none;
+    margin-top: 50px;
+    margin: 0 auto;
+  }
+  @media only screen and (max-width:480px) {
+    /* For mobile phones: */
+    .header, .main, .footer {
+      width: 480px;
+    }
+    header {
+        height: 300px;
+        display: table;
+        width: 580px;
+    }
+    #headpicture {
+        width: 480px;
+        height: 300px;
+        margin: 0 auto;
+    }
+    .introtext p {
+        width: 350px;
+        margin-top: 50px;
+        font-size: 1em;
+        margin: 0 auto;
+    }
+    #accordion {
+        width: 480px;
+    }
+    .p1 {
+        width: 380px;
+    }
+    #gallery {
+        width: 300px;
+        display: block;
+        
+    }
+    #tabs {
+        width: 400px;
+    }
+    .video-js {
+        width: 400px;
+    }
+    main {
+        height: 5000px;
+    }
   }
