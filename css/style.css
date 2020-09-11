@@ -37,7 +37,7 @@ main {
 .ui-accordion .ui-accordion-header-active {
     color: darkgreen;
 }
-.p1 {
+.middletext p {
     margin: 0 auto;
     width: 950px;
     text-align: center;
@@ -246,10 +246,7 @@ footer {
         width: 450px;
         margin-left: 75px;
     }
-    .p1 {
-        margin-left: 75px;
-        width: 450px;  
-    }
+
     h2 {
         font-size: 1.4em;
         margin-left: 240px;
@@ -294,11 +291,6 @@ footer {
         margin-top: -309px;
         margin-left: 76%;
     }
-      /* .image {
-        display: block;
-        width: 100%;
-        height: auto;
-      } */
       .overlay {
         top: 0;
         bottom: 0;
@@ -326,4 +318,8 @@ footer {
       #sound {
          margin-left: 150px;
       }
+      .middletext p{
+        width: 450px;
+        margin-left: 75px;
+    }
   }
