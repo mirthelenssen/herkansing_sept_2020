@@ -93,11 +93,11 @@ footer {
     margin-top: -309px;
     margin-left: 76%;
 }
-  .image {
+  /* .image {
     display: block;
     width: 100%;
     height: auto;
-  }
+  } */
   .overlay {
     position: absolute;
     top: 0;
@@ -167,43 +167,163 @@ footer {
   }
   @media only screen and (max-width:480px) {
     /* For mobile phones: */
-    .header, .main, .footer {
-      width: 480px;
+    header, body, main, footer {
+      width: 400px;
     }
     header {
         height: 300px;
-        display: table;
-        width: 580px;
+        width: 300px;
     }
     #headpicture {
-        width: 480px;
+        width: 375px;
         height: 300px;
-        margin: 0 auto;
+        margin-left: 0;
     }
     .introtext p {
         width: 350px;
         margin-top: 50px;
         font-size: 1em;
-        margin: 0 auto;
+        margin-left: 0;
     }
     #accordion {
-        width: 480px;
+        width: 300px;
+        margin: 0 auto;
+        margin-left: 0;
+
     }
     .p1 {
-        width: 380px;
+        width: 280px;
+        margin-left: 0;
+
     }
     #gallery {
         width: 300px;
         display: block;
-        
+        float: left;        
     }
     #tabs {
-        width: 400px;
+        width: 200px;
+        margin-left: 0;
+
     }
     .video-js {
-        width: 400px;
+        width: 300px;
+        margin-left: 0;
+
     }
     main {
         height: 5000px;
+        margin-left: 0;
+
     }
+    #sound {
+        margin-left: 0;
+    }
+    body{
+        width: 400px;
+        margin-left: 0;
+    }
+  }
+
+  @media only screen and (max-width:768px) {
+    header {
+        max-width: 575px;
+    }
+    main {
+        width: 768px;
+    }
+    body {
+        max-width: 700px;
+    }
+    .introtext p {
+        margin: 0 auto;
+        width: 450px;
+        margin-left: 75px;
+        margin-top: -300px;
+        font-size: 1em;
+    }
+    #accordion {
+        width: 450px;
+        margin-left: 75px;
+    }
+    .p1 {
+        margin-left: 75px;
+        width: 450px;  
+    }
+    h2 {
+        font-size: 1.4em;
+        margin-left: 240px;
+        width: 100px;
+    }
+    #gallery {
+        width: 450px;
+        height: 1000px;
+        margin-left: 75px;
+    }
+    footer {
+        background-color: white;
+        width: 700px;
+        height: 1000px;
+        margin-top: -80px;
+    }
+.container {
+        width: 25%;
+        margin-top: 300px;
+      }
+      #container2 {
+          margin-left: 38%;
+          margin-top: -309px;
+      }
+      #container3 {
+        margin-top: -308px;
+        margin-left: 76%;
+    }
+    #container5 {
+        margin-top: -310px;
+        margin-left: 38%;
+    }
+    #container6{
+        margin-top: -310px;
+        margin-left: 76%;
+    }
+    #container8{
+        margin-top: -306px;
+        margin-left: 38%;
+    }
+    #container9 {
+        margin-top: -309px;
+        margin-left: 76%;
+    }
+      /* .image {
+        display: block;
+        width: 100%;
+        height: auto;
+      } */
+      .overlay {
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 230px;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: darkgreen;
+      }
+      .text {
+        font-size: 0.3em;
+      }
+      #tabs {
+        width: 450px;
+        margin-left: 75px;
+        height: 400px;
+      }
+      .video-js {
+          margin: 0 auto;
+          width: 400px;
+          height: 250px;
+      }
+      #sound {
+         margin-left: 150px;
+      }
   }
