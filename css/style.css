@@ -93,11 +93,6 @@ footer {
     margin-top: -309px;
     margin-left: 76%;
 }
-  /* .image {
-    display: block;
-    width: 100%;
-    height: auto;
-  } */
   .overlay {
     position: absolute;
     top: 0;
@@ -227,99 +222,52 @@ footer {
 
   @media only screen and (max-width:768px) {
     header {
-        max-width: 575px;
+        max-width: 100%;
     }
     main {
-        width: 768px;
+        width: 100%;
     }
     body {
-        max-width: 700px;
+        max-width: 100%;
     }
     .introtext p {
-        margin: 0 auto;
         width: 450px;
-        margin-left: 75px;
-        margin-top: -300px;
         font-size: 1em;
+        margin-top: -200px;
     }
     #accordion {
-        width: 450px;
-        margin-left: 75px;
+        width: 550px; 
     }
-
     h2 {
         font-size: 1.4em;
-        margin-left: 240px;
-        width: 100px;
     }
     #gallery {
-        width: 450px;
-        height: 1000px;
-        margin-left: 75px;
+        width: 350px;
+        background-color: pink;
+    }
+    .container {
+        display: block;
     }
     footer {
-        background-color: white;
-        width: 700px;
-        height: 1000px;
         margin-top: -80px;
     }
-.container {
-        width: 25%;
-        margin-top: 300px;
-      }
-      #container2 {
-          margin-left: 38%;
-          margin-top: -309px;
-      }
-      #container3 {
-        margin-top: -308px;
-        margin-left: 76%;
-    }
-    #container5 {
-        margin-top: -310px;
-        margin-left: 38%;
-    }
-    #container6{
-        margin-top: -310px;
-        margin-left: 76%;
-    }
-    #container8{
-        margin-top: -306px;
-        margin-left: 38%;
-    }
-    #container9 {
-        margin-top: -309px;
-        margin-left: 76%;
-    }
-      .overlay {
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
+      /* .overlay {
         height: 100%;
         width: 230px;
-        opacity: 0;
-        transition: .5s ease;
-        background-color: darkgreen;
-      }
+        display: block;
+      } */
       .text {
         font-size: 0.3em;
       }
       #tabs {
-        width: 450px;
-        margin-left: 75px;
+        width: 550px;
         height: 400px;
       }
       .video-js {
-          margin: 0 auto;
           width: 400px;
           height: 250px;
       }
-      #sound {
-         margin-left: 150px;
-      }
       .middletext p{
-        width: 450px;
-        margin-left: 75px;
+        width: 550px;
     }
   }
