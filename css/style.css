@@ -53,54 +53,34 @@ h2 {
     color: darkgreen;
 }
 #gallery {
-    width: 950px;
+    width: 630px;
     margin: 0 auto;
-    height: 1000px;
+    height: 900px;
     margin-top: 50px;
     position: relative;
 }
 footer {
     background-color: white;
     width: 100%;
-    height: 1000px;
+    height: 900px;
     margin-top: -80px;
+    margin-bottom: 100px;
 }
   .container {
-    position: relative;
-    width: 50%;
+      position: relative;
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+    height: 300px;
   }
-  #container2 {
-      margin-left: 38%;
-      margin-top: -309px;
-  }
-  #container3 {
-    margin-top: -308px;
-    margin-left: 76%;
-}
-#container5 {
-    margin-top: -310px;
-    margin-left: 38%;
-}
-#container6{
-    margin-top: -310px;
-    margin-left: 76%;
-}
-#container8{
-    margin-top: -306px;
-    margin-left: 38%;
-}
-#container9 {
-    margin-top: -309px;
-    margin-left: 76%;
-}
   .overlay {
-    position: absolute;
+      position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100%;
-    width: 230px;
+    height: 265px;
+    width: 200px;
     opacity: 0;
     transition: .5s ease;
     background-color: darkgreen;
@@ -114,6 +94,7 @@ footer {
     position: absolute;
     top: 50%;
     left: 50%;
+    width: 200px;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -160,69 +141,10 @@ footer {
     margin-top: 50px;
     margin: 0 auto;
   }
-  @media only screen and (max-width:480px) {
-    /* For mobile phones: */
-    header, body, main, footer {
-      width: 400px;
-    }
-    header {
-        height: 300px;
-        width: 300px;
-    }
-    #headpicture {
-        width: 375px;
-        height: 300px;
-        margin-left: 0;
-    }
-    .introtext p {
-        width: 350px;
-        margin-top: 50px;
-        font-size: 1em;
-        margin-left: 0;
-    }
-    #accordion {
-        width: 300px;
-        margin: 0 auto;
-        margin-left: 0;
-
-    }
-    .p1 {
-        width: 280px;
-        margin-left: 0;
-
-    }
-    #gallery {
-        width: 300px;
-        display: block;
-        float: left;        
-    }
-    #tabs {
-        width: 200px;
-        margin-left: 0;
-
-    }
-    .video-js {
-        width: 300px;
-        margin-left: 0;
-
-    }
-    main {
-        height: 5000px;
-        margin-left: 0;
-
-    }
-    #sound {
-        margin-left: 0;
-    }
-    body{
-        width: 400px;
-        margin-left: 0;
-    }
-  }
-
+  
   @media only screen and (max-width:768px) {
     header {
-        max-width: 100%;
+        max-width: 760px;
     }
     main {
         width: 100%;
@@ -242,20 +164,15 @@ footer {
         font-size: 1.4em;
     }
     #gallery {
-        width: 350px;
-        background-color: pink;
+        width: 420px;
+        height: 1500px;
     }
     .container {
         display: block;
     }
     footer {
-        margin-top: -80px;
+        margin-top: 900px;
     }
-      /* .overlay {
-        height: 100%;
-        width: 230px;
-        display: block;
-      } */
       .text {
         font-size: 0.3em;
       }
@@ -271,3 +188,51 @@ footer {
         width: 550px;
     }
   }
+  @media only screen and (max-width:480px) {
+    /* For mobile phones: */
+    header {
+        max-width: 100%;
+        height: 500px;
+    }
+    main {
+        width: 100%;
+    }
+    body {
+        max-width: 100%;
+    }
+    .introtext p {
+        width: 250px;
+        font-size: 0.8em;
+    }
+    #accordion {
+        width: 350px; 
+    }
+    h2 {
+        font-size: 1em;
+    }
+    #gallery {
+        width: 220px;
+        height: 1500px;
+    }
+    .container {
+        display: block;
+    }
+    footer {
+        margin-top: 2800px;
+    }
+      .text {
+        font-size: 0.3em;
+      }
+      #tabs {
+        width: 250px;
+        height: 400px;
+      }
+      .video-js {
+          width: 200px;
+          height: 150px;
+      }
+      .middletext p{
+        width: 250px;
+    }
+  }
+
