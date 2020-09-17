@@ -1,6 +1,7 @@
 .clear {
     clear: both;
 }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 header {
     max-width: 100%;
     height: 640px;
@@ -25,6 +26,7 @@ main {
     font-size: 1.4em;
     line-height: 40px;
     font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
 }
 .green {
     color: darkgreen;
@@ -33,6 +35,8 @@ main {
     width: 900px;
     margin: 0 auto;
     margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+
 }
 .ui-accordion .ui-accordion-header-active {
     color: darkgreen;
@@ -44,6 +48,7 @@ main {
     margin-top: 50px;
     font-size: 1em;
     line-height: 30px;
+    font-family: 'Montserrat', sans-serif;
 }
 h2 {
     margin: 0 auto;
@@ -51,11 +56,11 @@ h2 {
     text-align: center;
     font-size: 1.5em;
     color: darkgreen;
+    font-family: 'Montserrat', sans-serif;
 }
 #gallery {
     width: 630px;
     margin: 0 auto;
-    height: 900px;
     margin-top: 50px;
     position: relative;
 }
@@ -99,6 +104,7 @@ footer {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
   }
   #tabs {
     width: 900px;
@@ -123,6 +129,7 @@ footer {
   }
   #sound p {
       color: black;
+      font-family: 'Montserrat', sans-serif;
   }
   #themesound {
       height: 30px;
@@ -133,13 +140,16 @@ footer {
   }
   #toggle {
     width: 280px;
-    height: 30px;
-    border-radius: 60%;
-    background: #ccc;
+    height: 130px;
     margin: 0 auto;
     display: none;
     margin-top: 50px;
     margin: 0 auto;
+  }
+  #toggle p {
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      margin-top: 10px;
   }
   @media only screen and (max-width:1200px) {
     header {
@@ -164,7 +174,6 @@ footer {
     }
     #gallery {
         width: 630px;
-        height: 1500px;
     }
     .container {
         display: block;
@@ -211,7 +220,6 @@ footer {
     }
     #gallery {
         width: 630px;
-        height: 1500px;
     }
     .container {
         display: block;
@@ -254,7 +262,6 @@ footer {
     }
     #gallery {
         width: 420px;
-        height: 1500px;
     }
     .container {
         display: block;
@@ -301,20 +308,19 @@ footer {
     }
     #gallery {
         width: 220px;
-        height: 1500px;
     }
     .container {
         display: block;
     }
     footer {
-        margin-top: 2550px;
+        margin-top: 2750px;
     }
       .text {
         font-size: 0.3em;
       }
       #tabs {
         width: 250px;
-        height: 400px;
+        height: 250px;
       }
       .video-js {
           width: 200px;
@@ -326,6 +332,10 @@ footer {
     }
     #tabs a{
         font-size: 0.5em;
+    }
+    .video-js .vjs-big-play-button {
+        width: 50px;
+        height: 50px;
     }
   }
 
